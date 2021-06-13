@@ -1,7 +1,7 @@
 import { IFetchOptions } from '../types/fetch';
 
-function buildRequest(options: IFetchOptions): RequestInit {
-    const requestInit: RequestInit = {
+function buildRequest(options: IFetchOptions): any {
+    const requestInit = {
         body: options.method === 'POST' ? JSON.stringify(options.body) : undefined,
         headers: {
             Accept: 'application/json, text/plain, */*',
