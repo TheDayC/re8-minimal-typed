@@ -12,7 +12,7 @@ const EnemyHealth: React.FC = () => {
 
     if (enemyHealth) {
         return (
-            <Flex>
+            <Flex direction="column">
                 {enemyHealth.map((eh: IEnemyHealth, i: number) => {
                     const hp = healthPercentage(eh.CurrentHP, eh.MaximumHP, 2);
                 
