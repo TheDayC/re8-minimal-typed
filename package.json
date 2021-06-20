@@ -2,6 +2,7 @@
   "name": "re8-minimal-typed",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@chakra-ui/react": "^1.6.2",
     "@emotion/react": "^11.4.0",
