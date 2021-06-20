@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 
 import './App.css';
 import Health from './components/Health';
+import DA from './components/DA';
 import { getData } from './services/data';
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
     return (
         <div className="App">
             <Health />
+            <DA />
         </div>
     );
 }
