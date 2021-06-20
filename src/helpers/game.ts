@@ -26,3 +26,13 @@ export function createGameDataDefault(): IGame {
         TargetChapter: null
     };
 }
+
+export function healthColor(hp: number): string {
+    if (hp <= 66 && hp > 33) {
+        return 'yellow';
+    } else if (hp <= 33 && hp > 0) {
+        return 'red';
+    } else {
+        return 'green';
+    }
+}
