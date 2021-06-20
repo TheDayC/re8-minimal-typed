@@ -9,7 +9,12 @@ import { IGameState } from './types/state';
 
 export function createGameState(): IGameState {
     return {
-        health: null
+        maxHealth: null,
+        currentHealth: null,
+        enemyHealth: null,
+        lei: null,
+        rank: null,
+        rankScore: null
     };
 }
 
