@@ -28,26 +28,26 @@ export interface IItem {
 }
 
 export interface IGame {
-    CurrentChapter: string;
-    CurrentRoom: string;
-    CurrentView: string;
-    CutsceneID: number;
-    CutsceneState: number;
-    CutsceneTimer: number;
-    DukeState: number;
-    EnemyHealth: IEnemyHealth[];
-    GameInit: number;
-    GameState: number;
-    LastKeyItem: IItem;
-    Lei: number;
-    PauseState: number;
-    PlayerCurrentHealth: number;
-    PlayerInventory: IItem;
-    PlayerMaxHealth: number;
-    PlayerPositionX: number;
-    PlayerPositionY: number;
-    PlayerPositionZ: number;
-    Rank: number;
-    RankScore: number;
-    TargetChapter: string;
+    CurrentChapter: string | null;
+    CurrentRoom: string | null;
+    CurrentView: string | null;
+    CutsceneID: number | null;
+    CutsceneState: number | null;
+    CutsceneTimer: number | null;
+    DukeState: number | null;
+    EnemyHealth: IEnemyHealth[] | null;
+    GameInit: number | null;
+    GameState: number | null;
+    LastKeyItem: IItem | null;
+    Lei: number | null;
+    PauseState: number | null;
+    PlayerCurrentHealth: number | null;
+    PlayerInventory: IItem | null;
+    PlayerMaxHealth: number | null;
+    PlayerPositionX: number | null;
+    PlayerPositionY: number | null;
+    PlayerPositionZ: number | null;
+    Rank: number | null;
+    RankScore: number | null;
+    TargetChapter: string | null;
 }
