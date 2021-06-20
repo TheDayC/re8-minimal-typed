@@ -1,6 +1,6 @@
-# Resident Evil Village Stream Widget [still in active development]
+# Resident Evil Village Stream Widget
 
-A TS / React / Redux application to introduce a more structured environment to develop stream widgets with.
+A TS / React / Redux application to introduce a more structured environment to develop stream widgets with. This is a personal project and only supports a minimal layout but feel free to fork and make your own layout.
 
 ## Available Scripts
 
